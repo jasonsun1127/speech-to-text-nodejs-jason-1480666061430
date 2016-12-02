@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: speech-to-text-nodejs-jason
+  host: speech-to-text-nodejs-jason
+  disk_quota: 1024M
+  services:
+  - Speech to Text-zj
